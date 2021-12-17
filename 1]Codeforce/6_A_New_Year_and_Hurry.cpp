@@ -25,7 +25,7 @@ ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
       if(check>minutes){
           cout<<i<<endl;
           flag = false;
-          break;
+          break; 
       }
   }
   if(flag) cout<<n<<endl;
