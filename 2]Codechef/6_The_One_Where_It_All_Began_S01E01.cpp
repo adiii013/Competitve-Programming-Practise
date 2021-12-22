@@ -14,7 +14,7 @@ ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
   int n;cin>>n;
   while(n--){
       int a;cin>>a;
-      if(a>6) cout<<"YES"<<endl;
+      if(a>=21) cout<<"YES"<<endl;
       else cout<<"NO"<<endl;
   }
 
