@@ -11,10 +11,6 @@ typedef long long ll;
 
 int main(){
 ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
-#ifndef ONLINE_JUDGE
-freopen("D:\\Competitive Programming Practise\\5]Input Output\\input.txt","r",stdin);
-freopen("D:\\Competitive Programming Practise\\5]Input Output\\output.txt","w",stdout);
-#endif
 
 int t;cin>>t;
 while(t--){
