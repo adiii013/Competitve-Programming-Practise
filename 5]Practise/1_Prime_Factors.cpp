@@ -9,12 +9,12 @@ using namespace std;
 
 typedef long long ll;
 
-void PrimeFactors(int n){
+void PrimeFactors(ll n){
     while(n%2==0){
         cout<<2<<" ";
         n = n/2;
     }
-    for(int i = 3;i<=sqrt(n);i = i+2){
+    for(ll i = 3;i<=sqrt(n);i = i+2){
         while(n%i==0){
             cout<<i<<" ";
             n = n/i;
@@ -26,7 +26,7 @@ void PrimeFactors(int n){
 int main(){
 ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 
-int t;cin>>t;
+ll t;cin>>t;
 
 PrimeFactors(t);
 
