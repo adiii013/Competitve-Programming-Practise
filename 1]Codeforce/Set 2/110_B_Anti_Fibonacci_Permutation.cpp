@@ -19,8 +19,7 @@ while(t--){
     cout<<"3 1 2\n";
   }
   else{
-    int count = n-1;
-    int end = n;
+    int count = n-1, end = n;
     for(int i = 0;i<end;i++){
       for(int j = 0;j<end;j++){
          cout<<v[count]<<" ";
