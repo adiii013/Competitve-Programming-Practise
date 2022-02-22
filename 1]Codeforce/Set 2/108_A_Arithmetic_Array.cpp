@@ -16,6 +16,7 @@ while(t--){
 			 cin >> a;
 			 sum += a;
 		 }
+		 
    if(sum < n)cout << "1\n";
    else cout << sum - n << "\n";
 }
