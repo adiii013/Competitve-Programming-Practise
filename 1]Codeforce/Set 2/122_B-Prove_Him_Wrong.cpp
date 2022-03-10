@@ -17,8 +17,8 @@ while(t--){
       cout<<"YES"<<endl;
 
       vector<ll> v(n);
-      v[0] = 1;
-      for(ll i = 1; i < n; i++){
+      v[0] = 1; 
+      for(ll i = 1;i < n; i++){
          v[i] = v[i - 1] * 2 + v[i - 1];
       }
 
