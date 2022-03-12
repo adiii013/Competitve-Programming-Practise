@@ -25,9 +25,11 @@ while(t--){
     }
     end--;
  }
+
  int diff = end-start;
  if(diff<0) cout<<0<<"\n";
  else cout<<end-start+1<<"\n";
+ 
 }
 return 0;
 }
