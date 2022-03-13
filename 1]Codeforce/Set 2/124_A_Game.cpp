@@ -31,5 +31,6 @@ while(t--){
  else cout<<end-start+1<<"\n";
  
 }
+
 return 0;
 }
