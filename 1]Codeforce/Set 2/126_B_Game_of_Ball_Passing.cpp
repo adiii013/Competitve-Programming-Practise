@@ -14,7 +14,7 @@ while(t--){
     sort(arr, arr+n);
     if(arr[n-1]==0) {
         cout << 0<<endl;
-        return;
+        continue;
     }
     ll sum = 0;
     for(int i =0;i<n-1;i++) {
