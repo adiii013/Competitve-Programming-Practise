@@ -16,7 +16,9 @@ while(t--){
         cout << 0<<endl;
         continue;
     }
+
     ll sum = 0;
+
     for(int i =0;i<n-1;i++) {
         sum += arr[i];
     }
