@@ -17,5 +17,5 @@ int main(){
             res+=*c;
         }
         cout<<res<<"\n";
-}
+    }
 }
