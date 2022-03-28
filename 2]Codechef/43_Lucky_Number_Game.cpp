@@ -12,6 +12,7 @@ while(t--){
   int ali = 0,bob = 0, albo = 0;
   for(int i = 0;i<n;i++){
       int d;cin>>d;
+      
       if(d%a==0 && d%b==0) albo++;
       else if(d%a==0) bob++;
       else if(d%b==0) ali++;
