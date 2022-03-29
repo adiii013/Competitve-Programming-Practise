@@ -16,6 +16,7 @@ while(t--){
       if(d%a==0 && d%b==0) albo++;
       else if(d%a==0) bob++;
       else if(d%b==0) ali++;
+      
   }
   if(albo>0) bob++;
   if(bob>ali) cout<<"BOB\n";
