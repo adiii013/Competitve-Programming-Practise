@@ -18,6 +18,7 @@ while(t--){
       else if(d%b==0) ali++;
       
   }
+  
   if(albo>0) bob++;
   if(bob>ali) cout<<"BOB\n";
   else cout<<"ALICE\n";
