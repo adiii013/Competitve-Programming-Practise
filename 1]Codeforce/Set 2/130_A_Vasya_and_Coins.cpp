@@ -15,5 +15,6 @@ while(t--){
   }
   cout<< a+2*b+1<<"\n";
 }
+
 return 0;
 }
