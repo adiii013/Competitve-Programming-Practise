@@ -13,6 +13,7 @@ while(t--){
       cout<<1<<"\n";
       continue;
   }
+  
   cout<< a+2*b+1<<"\n";
 }
 
